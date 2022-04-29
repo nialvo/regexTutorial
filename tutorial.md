@@ -4,7 +4,7 @@ Javascript uses ECMA regular expressions (regex), which are essentially a search
 In this tutorial, "regex" refers to an ECMA regex.<br>
 A regex allows a a developer to search a string for a sequence of characters which matches the criterion defined by said regex.<br> 
 There are several ways to implement regex in Javascript, depending on the purpose.<br>
-A common use example is to verify input. For instance, to verify that an input q    has the format of  an email address, we could simply do: <br>
+A common use example is to verify input. For instance, to verify that an input has the format of  an email address, we could simply do: <br>
 let email = input.match(/^\w+([\\.-]?\w+)*@\w+([\\.-]?\w+)*(\\.\w{2,3})+$/);<br>
 if(email) return input;<br>
 A regex criterion always begins and ends with "/".<br>
