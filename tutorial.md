@@ -106,7 +106,8 @@ Conversely, if a character is normally special, the "\\" makes it literal. For i
 
 ## Author
 
-I am a student at the UCI full stack coding bootcamp, I put this tutorial together drawing heavily on 
+I am a student at the UCI full stack coding bootcamp.<br>
+I put this tutorial together drawing heavily on 
 <a href='https://www.regular-expressions.info/tutorial.html'>regular-expressions.info</a> and 
 <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions'>Mozilla Regex Guide</a>.<br>
 Please find me on Github at <a href='https://github.com/nialvo'>nialvo github</a>
