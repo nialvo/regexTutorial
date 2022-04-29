@@ -95,7 +95,7 @@ Flags are added after the "/" ending the criterion. They specify search paramete
 "g" 	performs a global search, that is it matches all occurences matching the criterion rather than simply the first.<br>	
 "i" 	makes the search case-insensitive.<br>
 "m" 	performs a multi-line search. Practically speaking, this flag changes the interpretation of "^" and "$" anchors to mean beginning and end of line rather than beginning and end of string.<br>	
-"s" 	allows . to match newline characters.<br> 
+"s" 	allows "." to match newline characters.<br> 
 "u" 	treats a pattern as a sequence of unicode code points.<br> 	
 "y" 	performs a sticky search: it starts at the current position in the target string.<br>
 
