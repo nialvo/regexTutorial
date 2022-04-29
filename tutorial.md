@@ -67,7 +67,7 @@ We may also use brackets to specify characters by negative: /[^a-zA-Z]/ matches 
 "\d" matches any arabic digit, equivalent to [0-9].<br>
 "\D" matches any non-digit, equivalent to [^0-9].<br>
 "\w" matches any alphanumeric character from the basic latin alphabet, equivalent to [a-zA-Z0-9].<br>
-"\w" matches anything excet an alphanumeric character from the basic latin alphabet, equivalent to [^a-zA-Z0-9].<br>
+"\w" matches anything except an alphanumeric character from the basic latin alphabet, equivalent to [^a-zA-Z0-9].<br>
 "\s" matches a single whitespace including space, tab, line feed, etc.<br>
 "\S" matches anything except a whitespace.<br>
 "\t" matches a horizontal tab.<br>
