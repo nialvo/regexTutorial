@@ -27,7 +27,7 @@ By default, a regex matches the first instance inside the string which matches t
 
 Anchors denote the beginning and end of a string.<br>
 "^" marks the beginning and "\$" marks the end.<br>
-/^x/ matches a string beginning with "x", /x$/ matches a string ending with "x".<br>
+/^x/ matches an "x" at the beginning of a string, /x$/ matches an "x" at the end of a string.<br>
 In the email format verification given above, we have both: we want to make sure that the whole string corresponds to an email format, rather than simply verifying that the string contains an email but possibly other things in addition.<br>
 Similar to anchors is the \b, signifying a word boundary. /\ba/ matches the second "a" in "sad actor".<br>
 The opposite also exists: \B denotes a non-word boundary, that is the limit between two characters or two spaces:<br>
@@ -36,7 +36,7 @@ The opposite also exists: \B denotes a non-word boundary, that is the limit betw
 ### Quantifiers
 
 Quantifiers denote the quantity of a given character to match, by a value or range inside braces.<br>
-/x{3}/ matches a string composed of "xxx".<br>
+/x{3}/ matches a substring composed of "xxx".<br>
 /x{2,4}/ matches "xx", "xxx", and "xxxx".<br>
 The upper bound is optional:<br>
 /x{2,}/ matches "xx", "xxx", "xxxx", "xxxxx", etc.<br>
