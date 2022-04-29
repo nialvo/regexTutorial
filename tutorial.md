@@ -58,7 +58,7 @@ Brackets allow us to specify a range of characters to match.<br>
 /[abcde]/ matches any of those characters, it is equivalent in a sense to /a|b|c|d|e/.<br>
 Another way to write this is /[a-e]/.<br>
 We may combine the notations within a set of brackets.<br>
-For example to match any character upper or lowercase from a to e or any integer from 1 to 4: /[e-eA-E1-4]/.<br>
+For example to match any character upper or lowercase from a to e or any integer from 1 to 4: /[a-eA-E1-4]/.<br>
 We may also use brackets to specify characters by negative: /[^a-zA-Z]/ matches any character except a regular latin alphabet character.<br>
 
 ### Character Classes
